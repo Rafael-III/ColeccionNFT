@@ -16,7 +16,7 @@ contract FunkyCrocs is ERC721Enumerable, Ownable {
     uint256 public reserved = 150;
 
     // Price of each token
-    uint256 public initial_price = 0.04 ether;
+    uint256 public initial_price = 0.01 ether;
     uint256 public price;
 
     // Maximum limit of tokens that can ever exist
@@ -25,7 +25,7 @@ contract FunkyCrocs is ERC721Enumerable, Ownable {
     uint256 public constant MAX_MINT_PER_TX = 20;
 
     // The base link that leads to the image / video of the token
-    string public baseTokenURI = "https://api.funkycrocs.io/";
+    string public baseTokenURI = "http://159.65.190.144/";
 
     // Team addresses for withdrawals
     address public a1;
